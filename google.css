@@ -1,0 +1,502 @@
+.contain-everything{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* flex-wrap: nowrap; */
+}
+
+.menu-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gmail-images-container{
+    display: flex;
+    /* border: 1px solid blue; */
+    /* margin: 0.2rem; */
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.gmail-a-tag-box{
+    width: 3.5rem;
+    /* margin: 0.2rem; */
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.gmail-a-tag{
+    background-color: white;
+    text-decoration: none;
+}
+
+.gmail-a-tag:hover{
+    text-decoration: underline;
+}
+
+.images-a-tag-box{
+    width: 3.5rem;
+    /* margin: 0.25rem; */
+    padding: 0.25rem;
+    text-align: center;
+}
+
+.images-a-tag{
+    background-color: white;
+    text-decoration: none;
+}
+
+.images-a-tag:hover{
+    text-decoration: underline;
+}
+
+
+.three-dot-avatar-div{
+    display: flex;
+    /* border: 1px solid blue; */
+    margin: 0.25rem;
+    width: 7rem;
+    justify-content: center;
+}
+
+.three-dot-div{
+    background-color: white;
+    margin: 0.25rem;
+}
+.three-dot{
+    height: 2rem;
+    width: 2rem;
+}
+
+.avatar-image-div{
+    background-color: white;
+    margin: 0.25rem;
+}
+
+.avatar-image{
+    width: 2rem;
+    height: 1.5rem;
+    margin: 0.25rem;
+}
+
+.google-image-div{
+    /*border: 1px solid blue;*/
+    /* width: 1070px; */
+    margin-top: -3.5rem;
+    text-align: center;
+    /* width: 1.5rem; */
+    /* height: 1.5rem; */
+}
+
+.google-image{
+    width: 20rem;
+    height: 10rem;
+}
+
+.google-center-box{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.lens-voice-input-search-icon{
+    border: 0.25px solid rgba(192, 192, 192, 0.799);
+    display: flex;
+    /* margin-top: 2rem; */
+    margin: 0 auto;
+    width: 27rem;
+    /* background-color: auto; */
+    border-radius: 1.2rem;
+    justify-content: center;
+    /* height: 1.5rem; */
+    align-items: center;
+    padding: 0.25rem 1.5rem 0.25rem 1rem;
+    background-color: rgb(240,240,240);
+}
+
+.google-lens-div{
+    height: auto;
+    width: 1.5rem;
+    text-align: center;
+    /* border: 1px solid green; */
+    margin: 0.25rem;
+    /* padding: 1rem; */
+}
+
+.google-lens{
+    width: 1.5rem;
+    height: 1rem;
+}
+
+.input{
+    width: 23.5rem;
+    height: 1.5rem;
+    /* border: 1px solid blue; */
+    background-color: rgb(240,240,240);
+    font-size: 15px;
+    line-height: 1rem;
+    /* text-decoration: none; */
+    border: none;
+    outline: none;
+}
+    
+.google-search-by-voice-div{
+    height: 0.9rem;
+    width: 1rem;
+    /* border: 1px solid blue; */
+    margin: 0.25rem;
+}
+
+.google-search-by-voice{
+    width: 1rem;
+    height: 0.9rem;
+}
+
+.lens-voice-input-search-icon:hover{
+    border: 0.5px solid rgb(100, 95, 95);
+    box-shadow: 0.1rem 0.05rem 0.05rem 0.05rem gray;  
+}
+
+.voice-image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-by-image-div{
+    height: 0.9rem;
+    width: 1rem;
+    padding: 0.25rem;
+}
+
+.search-by-image{
+    width: 1rem;
+}
+
+.google-search-box{
+    height: 1.3rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.25rem;
+    margin: 0 0.25rem 0 0;
+} 
+
+.google-search-box:hover{
+    text-decoration: none;
+    /* padding: 0.25rem; */
+    box-shadow: 0.1rem 0.05rem 0.05rem 0.05rem gray;
+}
+
+.feeling-lucky-box{
+    height: 1.3rem;
+    width: 8rem;
+    text-align: center;
+    border-radius: 0.2rem;
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0.25rem;
+    margin: 0 0 0 0.25rem;
+    
+}
+ 
+.feeling-lucky-box:hover{
+    text-decoration: none;
+    /* padding: 0.25rem; */
+    box-shadow: 0.1rem 0.05rem 0.05rem 0.05rem gray;
+    /* text-decoration: underline; */
+}
+
+.feeling-lucky-a{
+    text-decoration: none;
+    
+}
+
+.google-feeling-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+
+/* 
+.offered-in{
+    width: 8rem;
+    background-color: white;
+    height: 1rem;
+    align-content: center;
+    padding-top: 1rem;
+}
+
+.hausa{
+    width: 3rem;
+    background-color: white;
+    height: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.igbo{
+    width: 3rem;
+    height: 1rem;
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.yoruba{
+    width: 5.5rem;
+    height: 1rem;
+    padding-top: 1rem;
+    
+}
+
+.nigpidgin{
+    width: 6rem;
+    height: 1rem;
+    background-color: white;
+    padding-top: 1rem;
+    
+}
+  
+.google-offered-nig-lang{
+        background-color: white;
+        display: flex;
+        width: 16 rem;
+        justify-content: center;
+        margin: auto;
+        font-size: 10px      
+}
+
+.nigeria{
+    width: 2rem;
+    height: 2px;
+    padding: 1.5px;
+    background-color: grey;
+    font-size: 10px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.about{
+    width: 2rem;
+    height: 2px;
+    padding: 1px;
+}
+
+.business{
+    width: 2rem;
+    height: 2px;
+    padding: 1px;
+}
+
+.advt{
+    width: 3rem;
+    height: 2px;
+    padding: 1px;    
+}
+.how{
+    width: 5rem;
+    height: 2px;
+    padding: 1px;
+}
+
+.privacy{
+    width: 2rem;
+    height: 2px;
+    padding: 1px;
+}
+.terms{
+    width: 2rem;
+    height: 2px;
+    padding: 1px;
+}
+
+.settings{
+    width: 3rem;
+    height: 2px;
+    padding: 1px;
+}
+
+.content{
+    font-size: 12px;
+    display: flex;
+    width: 25px;
+    height: 1.5px;
+    background-color: aqua;
+    border: 2.5rem 2.5rem 2.5rem 2.5rem;
+} */
+
+.google-offered-nig-lang{
+    width: 50%;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offered-in{
+    /* width: 8rem; */
+    background-color: white;
+    /* height: 1rem; */
+    align-content: center;
+    /* padding-top: 1rem; */
+}
+
+.hausa{
+    /* width: 3rem; */
+    background-color: white;
+    /* height: 1rem; */
+    text-align: center;
+    /* padding-top: 1rem; */
+}
+
+.hausa:hover{
+    text-decoration: underline;
+}
+
+.igbo{
+    /* width: 3rem; */
+    /* height: 1rem; */
+    background-color: white;
+    text-align: center;
+    /* padding-top: 1rem; */
+}
+
+.igbo:hover{
+    text-decoration: underline;
+}
+
+.yoruba{
+    /* width: 5.5rem; */
+    /* height: 1rem; */
+    /* padding-top: 1rem; */
+    background-color: white;
+    text-align: center;
+    
+}
+
+.yoruba:hover{
+    text-decoration: underline;
+}
+
+.nigpidgin{
+    /* width: 6rem; */
+    /* height: 1rem; */
+    background-color: white;
+    text-align: center;
+    /* padding-top: 1rem; */
+    
+}
+
+.nigpidgin:hover{
+    text-decoration: underline;
+}
+
+
+/* .footer{
+    position: fixed;
+    bottom: 0;
+    background-color: silver;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    margin: auto;
+} */
+
+
+.footer{
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nig-container{
+    width: 100%;
+    height: 1.5rem;
+    /*margin: 0.25rem 0.25rem;*/
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 0 1rem;
+    border-bottom: 1px solid rgb(112, 39, 39);
+}
+
+.nigeria{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 1.5rem;
+    /*margin: 0.25rem 0.25rem;*/
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 0 0.5rem;
+    font-size: small;
+}
+
+.content{
+    /* border: 1px solid pink; */
+    /* margin: 0.25rem 0.25rem; */
+    display: flex;
+    width: 100%;
+    height: 1.5rem;
+    padding: 0 0.25rem;
+    justify-content: space-between;
+    background-color: silver;
+    font-size: small;
+    align-items: center;
+}
+
+.nig-container{
+    height: 10%;
+    width: 100%;
+    background-color: silver;
+    /* margin-bottom: 10rem; */
+    padding: 0rem 0.25rem 0.50rem 0rem;   
+}
+
+.sust-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.sustainability-icon{
+    width: 1rem;
+    height: 1rem;
+    background-color: silver;
+}
+
+.sustainability-icon-div{
+    width: 1rem;
+    height: 1rem;
+    padding: 0.25rem;
+    background-color: silver;
+}
+
+.footer-second-part{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.privacy-terms{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
